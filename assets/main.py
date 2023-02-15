@@ -12,9 +12,9 @@ with open("assets\colors.json", encoding="utf8") as f:
 bg_colors = (13, 16, 23)
 fonts_color = (255,255,255)
 
-#=================================================================================#
 #Container - tkinter
 container = Canvas.canvas(bg=bg_colors)
+#=================================================================================#
 
 #DataHandler
 fps = 60 
@@ -33,5 +33,3 @@ container.add_time(df=df, time_indicator="year", color=fonts_color)
 
 #Play the animation
 container.play(fps=fps)
-
-# fonts color
