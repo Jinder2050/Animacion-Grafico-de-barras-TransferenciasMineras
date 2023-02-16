@@ -51,10 +51,10 @@
 
 # filepath='assets\data\data.xlsx', bars_colors="assets\colors.json"
 
-from Animation import animator
+from Animation import Animator
 
 def main():
-    v = animator(filepath="assets\data\data.xlsx")
+    v = Animator()
     v.add_bars()
     v.add_texts()
     v.play_animation()

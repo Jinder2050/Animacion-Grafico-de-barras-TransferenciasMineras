@@ -3,17 +3,26 @@ from typing import Optional
 import json
 
 
-class animator():
+class Animator():
     '''
-    filepath: Ubicacion absoluta o relativa de los datos en archivo .xlsx
+    filepath: Absolute or relative location of data in (*.xlsx) file
 
-    duration: duracion en milisegundos
+    duration: Duration for number of frames
 
-    fps: fotogramas por segundo
+    fps: Frames per second for number of frames
+
+    bars_colors: Dictionary that holds color information for each of the data categories. Default is {}
+        parameters:
+            key: (str) -> correspond to the name of the data category (column)
+            value: -> should be the RGB values of the color
+
+    bg_colors: Global variable -> background color for container and To hide bars that fall outside of the top X, a square is drawn at the bottom of the visualization.
+
+    fonts_colors: Global variable -> font color for texts in the visualization
     '''
     def __init__(
             self,
-            filepath: str = None, 
+            filepath: str,
             duration: float | int = 0.5,
             fps: int | None = 30,
             bars_colors: Optional[str] = None,
@@ -50,7 +59,8 @@ class animator():
                             canvas = self.container.canvas,
                             colors = bar_color,
                             font_color = self.fonts_colors,
-                            back_ground_color=self.bg_colors )
+                            back_ground_color=self.bg_colors,
+                            unit='S/.')
         self.container.add_sub_plot(barchart)
     
 
