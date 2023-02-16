@@ -22,7 +22,7 @@ class Animator():
     '''
     def __init__(
             self,
-            filepath: str,
+            filepath: str | None = ...,
             duration: float | int = 0.5,
             fps: int | None = 30,
             bars_colors: Optional[str] = None,
