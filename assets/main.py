@@ -51,10 +51,21 @@
 
 # filepath='assets\data\data.xlsx', bars_colors="assets\colors.json"
 
-from Animation import Animator
+# from Animation import Animator
+
+# def main():
+#     v = Animator(filepath='assets\data\data.xlsx', bars_colors="assets\colors.json")
+#     v.add_bars()
+#     v.add_texts()
+#     v.play_animation()
+
+# if __name__ == '__main__':
+#     main()
+
+from Animation import *
 
 def main():
-    v = Animator()
+    v = Darkanimation(filepath='assets\data\data.xlsx', duration=1)
     v.add_bars()
     v.add_texts()
     v.play_animation()
