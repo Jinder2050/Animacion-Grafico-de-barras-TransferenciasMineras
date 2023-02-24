@@ -12,7 +12,7 @@
 
 
 
-## Table Of Contents
+## Tabla de Contenido
 
 * [Getting Started](#getting-started)
   * [Installation](#installation)
@@ -23,7 +23,7 @@
 ## Getting Started
 
 
-### Installation
+### Instalación
 
 1. Puedes descargar el repositorio [aquí](https://github.com/Jinder2050/Animacion-TransferenciasMineras/archive/refs/heads/main.zip).
 
@@ -44,7 +44,7 @@ cd Animacion-TransferenciasMineras
 python3 -m pip install -r requirements.txt
 ```
 
-## Usage
+## Uso
 
 Para ejecutar la animación ejecuta el archivo `assets/main.py`
 
@@ -56,8 +56,3 @@ Para ejecutar la animación ejecuta el archivo `assets/main.py`
 
 * **Jinder2050** - *Mining Engineering Student* - [Jinder2050](https://github.com/Jinder2050) - **
 
-## Acknowledgements
-
-* [ShaanCoding](https://github.com/ShaanCoding/)
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* [ImgShields](https://shields.io/)
