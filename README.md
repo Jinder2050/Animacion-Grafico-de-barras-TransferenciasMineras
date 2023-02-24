@@ -1,7 +1,6 @@
-# Animacion-Grafico-de-barras-TransferenciasMineras
 <br/>
 <p align="center">
-  <h3 align="center">Animación Gráfico de Barras</h3>
+  <h1 align="center">Animación Gráfico de Barras</h1>
 
   <p align="center">
     Transferencia de Recursos (Canon minero, Regalías Mineras y Derecho de Vigencia y Penalidad) 2010 - 2022
@@ -48,11 +47,13 @@ python3 -m pip install -r requirements.txt
 
 Para ejecutar la animación ejecuta el archivo `assets/main.py`
 
-### Creating A Pull Request
+## Source
+* [Boletín Estadístico Minero (BEM)](https://www.gob.pe/minem)
 
+* [MEF - Portal de Transparencia Económica, Instituto Geológico Minero y Metalúrgico (INGEMMET)](https://www.mef.gob.pe/es/?option=com_content&language=es-ES&Itemid=100143&lang=es-ES&view=category&id=661)
 
 
 ## Authors
 
-* **Jinder2050** - *Mining Engineering Student* - [Jinder2050](https://github.com/Jinder2050) - **
+* **[Jinder2050](https://github.com/Jinder2050)** - *Mining Engineering Student* 
 
