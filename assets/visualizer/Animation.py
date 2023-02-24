@@ -13,6 +13,14 @@ class Darkanimation(Animator):
         parameters:
             key: (str) -> correspond to the name of the data category (column)
             value: -> should be the RGB values of the color
+        
+            Example: 
+            {
+                "Amazonas": [
+                    251, 123, 14
+                ],
+                ...
+            }
 
     bg_colors: Global variable -> background color for container and To hide bars that fall outside of the top X, a square is drawn at the bottom of the visualization.
 
@@ -21,8 +29,6 @@ class Darkanimation(Animator):
     anim title: Main animation title
 
     anim_subtitle: Animation subtitle
-
-
     """
 
     def __init__(self, filepath: str | None = ..., duration: float | int = 0.5, fps: int | None = 30, bars_colors: Optional[Dict[str, Tuple[int, int, int]]] = None, bg_colors: tuple[int, int, int] = (13,16,23), fonts_colors: tuple[int, int, int] = [255, 255, 255], anim_title: str = 'BARCHART ANIMATION', anim_subtitle: str = "") -> None:
@@ -43,6 +49,14 @@ class Lightanimation(Animator):
         parameters:
             key: (str) -> correspond to the name of the data category (column)
             value: -> should be the RGB values of the color
+                    
+            Example: 
+            {
+                "Amazonas": [
+                    251, 123, 14
+                ],
+                ...
+            }
 
     bg_colors: Global variable -> background color for container and To hide bars that fall outside of the top X, a square is drawn at the bottom of the visualization.
 
@@ -51,8 +65,6 @@ class Lightanimation(Animator):
     anim title: Main animation title
 
     anim_subtitle: Animation subtitle
-
-
     """
 
     def __init__(self, filepath: str | None = ..., duration: float | int = 0.5, fps: int | None = 30, bars_colors: Optional[Dict[str, Tuple[int, int, int]]] = None, bg_colors: tuple[int, int, int] = (255, 255, 255), fonts_colors: tuple[int, int, int] = [0, 0, 0], anim_title: str = 'BARCHART ANIMATION', anim_subtitle: str = "") -> None:
