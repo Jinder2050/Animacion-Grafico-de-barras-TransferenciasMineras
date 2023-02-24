@@ -31,6 +31,9 @@ class Animator():
 
 
     def add_bars(self) -> None:
+        """
+        This method adds the bar graph
+        """
         df = DataHandler.DataHandler(excel_file=self.filepath, number_of_frames=self.fps*self.duration*60).df
 
         #Open json file
@@ -51,15 +54,27 @@ class Animator():
         pass
 
     def add_texts(self) -> None:
+        """
+        Add title and subtitle
+        """
         df = DataHandler.DataHandler(excel_file=self.filepath, number_of_frames=self.fps*self.duration*60).df
         self.container.add_title(self.anim_title, color=self.fonts_colors)
         self.container.add_sub_title(self.anim_subtitle, color=self.fonts_colors)
         self.container.add_time(df=df, time_indicator="year", color=self.fonts_colors)
     
     def play_animation(self) -> None:
+        '''
+        Run animation
+        '''
         self.container.play(fps=self.fps)
 
     def methods(self) -> None:
+        """
+        Run all methods:
+        -> add bars()
+        -> add texts()
+        -> play animation()
+        """
         self.add_bars()
         self.add_texts()
         self.play_animation()
