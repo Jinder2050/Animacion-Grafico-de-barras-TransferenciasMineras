@@ -59,7 +59,7 @@ python3 main.py
 ## Demo
 ![animation](demo/demo1.gif)
 
-Vea la animación completa [aquí](https://www.linkedin.com/in/yiender-condori-galdos-6a536020b/).
+Vea la animación completa [aquí](https://www.linkedin.com/posts/yiender-condori-galdos-6a536020b_python-datavisualization-mineraeda-activity-7035119242647588864-uPIP?utm_source=share&utm_medium=member_desktop).
 
 ## Source
 * [Boletín Estadístico Minero (BEM)](https://www.gob.pe/minem)
