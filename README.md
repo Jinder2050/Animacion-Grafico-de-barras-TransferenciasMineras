@@ -43,7 +43,7 @@ cd Animacion-TransferenciasMineras
 4. Instala las librerías necesarias de `requirements.txt`
 
 ```sh
-python3 -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Uso
@@ -58,6 +58,7 @@ python3 main.py
 
 ## Demo
 ![animation](demo/demo1.gif)
+Vea la animación completa [aquí](https://www.linkedin.com/in/yiender-condori-galdos-6a536020b/).
 
 ## Source
 * [Boletín Estadístico Minero (BEM)](https://www.gob.pe/minem)

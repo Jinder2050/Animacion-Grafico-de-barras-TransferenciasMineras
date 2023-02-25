@@ -3,7 +3,7 @@ from visualizer import Animation as am
 # ===========================  DARK MODE ============================== #
 
 def main():
-    a = am.Darkanimation(filepath='assets\data\data.xlsx', duration=1, fps=60, bars_colors='assets\colors.json', anim_subtitle='2010 - 2022', anim_title='TRANSFERENCIA DE RECURSOS')
+    a = am.Darkanimation(filepath='assets\data\data.xlsx', duration=1, fps=60, bars_colors='assets\colors.json', anim_subtitle='2010 - 2022', anim_title='TRANSFERENCIA DE RECURSOS (Soles)')
     a.methods()
 
 
