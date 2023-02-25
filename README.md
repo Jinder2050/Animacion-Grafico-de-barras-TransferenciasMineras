@@ -57,12 +57,7 @@ python3 main.py
 ```
 
 ## Demo
-
-<p align="center">
-
-  ![animation](demo/demo1.gif)
-
-</p>
+![animation](demo/demo1.gif)
 
 Vea la animación completa [aquí](https://www.linkedin.com/in/yiender-condori-galdos-6a536020b/).
 
